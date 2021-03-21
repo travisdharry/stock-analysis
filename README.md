@@ -24,7 +24,9 @@ Finally, we set a timer to record the amount of time our code required to loop t
 
 		
 ### Outcome
+
 ####Stock Analysis
+
 Our analysis showed that most of these stocks performed much better in 2017 than 2018. In fact, the only two stocks which showed positive returns both years were “ENPH” and “RUN”. Total volumes traded were similar year-over-year, but many of the stocks which enjoyed positive returns in 2017 fell dramatically in 2018. The following table demonstrates the broadly positive returns for stocks in 2017, which have been shaded green. Some, like “DQ”, saw nearly 200% returns. Only one stock registered negative returns.
 
 ![All Stocks 2017](All_Stocks_2017.png)
@@ -35,11 +37,12 @@ By comparison, the table below demonstrates how poorly most of these stocks perf
 
 To more accurately gauge the quality of a stock, one would need to compare its performance to that of other stocks outside the scope of this project. For instance, 2018 may have been a bad year for stocks across the board, and not just these twelve. One would also need to analyze this data across a longer period of time to show broader trends. For instance, “DQ” performed best in 2017, but lost all of that and more in 2018. Others, like “RUN”, only had slim gains in 2017, but came out ahead in 2018.
 
+
 ####Code Performance
+
 Our efforts to refactor our code were a clear success. Our original code processed the data for 2017 and 2018 in times of 1.43 and 1.36 seconds, respectively. 
 
-![Original_Runtime_2017](Original_Runtime_2017.png)
-![Original_Runtime_2018](Original_Runtime_2018.png)
+![Original_Runtime_2017](Original_Runtime_2017.png) ![Original_Runtime_2018](Original_Runtime_2018.png)
 
 Our refactored code processed the same data in 0.14 seconds for both years.
 
