@@ -40,11 +40,11 @@ To more accurately gauge the quality of a stock, one would need to compare its p
 #### Code Performance
 Our efforts to refactor our code were a clear success. Our original code processed the data for 2017 and 2018 in times of 1.43 and 1.36 seconds, respectively. 
 
-![Original_Runtime_2017](Original_Runtime_2017.png) [Original_Runtime_2018](Original_Runtime_2018.png)
+![Original_Runtime_2017](Original_Runtime_2017.png height = 500 width = 500) ![Original_Runtime_2018](Original_Runtime_2018.png)
 
 Our refactored code processed the same data in 0.14 seconds for both years.
 
-![VBA_Challenge_2017](VBA_Challenge_2017.png) [VBA_Challenge_2018](VBA_Challenge_2018.png)
+![VBA_Challenge_2017](VBA_Challenge_2017.png) ![VBA_Challenge_2018](VBA_Challenge_2018.png)
 
 Our original code took about ten times as long to process the data. Clearly the refactored code is faster and more efficient.
 
